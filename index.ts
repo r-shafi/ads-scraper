@@ -25,10 +25,6 @@ async function main() {
 
     if (currentPageIndex === 1) {
       totalAdsCount = getTotalAdsCount($);
-<<<<<<< HEAD
-      console.log(totalAdsCount);
-=======
->>>>>>> c8d9f73 (main function to start program)
     }
 
     const items = addItems($);
@@ -64,16 +60,6 @@ async function getNextPageUrl($: CheerioAPI) {
       data: allAds,
     };
 
-<<<<<<< HEAD
-    fs.writeFile('ads.json', JSON.stringify(data, null, 2), 'utf-8', (err) => {
-      if (err) {
-        console.error(err);
-      } else {
-        console.log('File Saved!');
-      }
-    });
-    return;
-=======
     fs.writeFile(
       'result.json',
       JSON.stringify(data, null, 2),
@@ -86,7 +72,6 @@ async function getNextPageUrl($: CheerioAPI) {
         }
       }
     );
->>>>>>> c8d9f73 (main function to start program)
   }
 
   await main();
