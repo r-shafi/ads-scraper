@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node dist/index.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
-    "build": "npx tsc --build"
+    "build": "npx tsc --build",
+    "clean": "npx tsc --build --clean"
   },
   "keywords": [],
   "author": "",
