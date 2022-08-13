@@ -2,12 +2,10 @@
 
 ## Running Project
 
-```bash
-git clone https://github.com/r-shafi/ads-scraper.git
+1. `git clone https://github.com/r-shafi/ads-scraper.git`
 
-cd ads-scraper
+2. `cd ads-scraper`
 
-npm install
+3. `npm install`
 
-npm start
-```
+4. `npm start`
